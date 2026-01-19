@@ -1,1 +1,1 @@
-Teste
+- [Configurando o cedilha no Linux Mint 22.3](https://github.com/makerootslab/devaneios/blob/main/linux/cedilha_linux_mint.md)
