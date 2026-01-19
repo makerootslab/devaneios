@@ -1,3 +1,4 @@
+# Configurando o cedilha no Linux Mint 22.3
 
 Observação: testado com sucesso em janeiro de 2026 no Linux Mint 22.3!
 
@@ -13,8 +14,6 @@ sudo nano /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules.cache
 Em ambos, procure as linhas que se iniciam com "cedilla" "Cedilla" e adicione :en à linha, de forma semelhante a isto:
 
 `"cedilla" "Cedilla" "gtk30" "/usr/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa:en"`
-
-# Configurando o cedilha no Linux Mint 22.3
 
 2. Altere o arquivo Compose:
 
