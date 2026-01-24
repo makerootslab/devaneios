@@ -1,1 +1,2 @@
 - [Configurando o cedilha no Linux Mint 22.3](https://github.com/makerootslab/devaneios/blob/main/linux/cedilha_linux_mint.md)
+- [Instalando o R no Ubuntu 24.04](https://github.com/makerootslab/devaneios/blob/main/linux/r_install_24-04.md)
