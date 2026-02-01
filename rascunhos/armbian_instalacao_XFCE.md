@@ -14,7 +14,7 @@
 
 ## Navegador Chromium
 
-`sudo apt install chromium chromium-l10n````
+`sudo apt install chromium chromium-l10n`
 
 Reinicie a máquina, faça o login e aguarde a interface gráfica do XFCE abrir.
 
