@@ -59,6 +59,5 @@ Você deve substituir ```"<display DRM driver>"``` com seu respectivo driver, a 
 
 Fonte: https://en.opensuse.org/ARM_Mali_GPU
 
-sudo add-apt-repository ppa:zorinos/stable
+sudo apt install xfce4-whiskermenu-plugin
 
-sudo apt install zorin-desktop-themes zorin-icon-themes
