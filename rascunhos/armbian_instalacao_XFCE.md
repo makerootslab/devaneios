@@ -24,7 +24,3 @@ Reinicie a máquina, faça o login e aguarde a interface gráfica do XFCE abrir.
 
 `sudo apt install libreoffice-writer libreoffice-calc libreoffice-impress libreoffice-l10n-pt-br libreoffice-help-pt-br ttf-mscorefonts-installer`
 
-
-
-
-
