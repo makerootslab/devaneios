@@ -26,3 +26,35 @@ Reinicie a máquina, faça o login e aguarde a interface gráfica do XFCE abrir.
 
 `sudo apt install libreoffice-writer libreoffice-calc libreoffice-impress libreoffice-l10n-pt-br libreoffice-help-pt-br ttf-mscorefonts-installer`
 
+## Drivers gráficos e acessórios
+
+`sudo apt install ffmpeg gstreamer1.0-fdkaac gstreamer1.0-libav gstreamer1.0-plugins-base-apps gstreamer1.0-vaapi gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly lame libavcodec-extra libavcodec-extra59 libavdevice59 libgstreamer1.0-0 sox twolame vorbis-tools mpv vlc`
+
+## Arquivo xorg.conf
+
+Para ativar o driver Mesa/Lima, alterar o arquivo /etc/X11/xorg.conf inserindo as informações a seguir.
+
+```
+Section "ServerFlags"
+        Option  "AutoAddGPU" "off"
+        Option "Debug" "dmabuf_capable"
+ EndSection
+
+ Section "OutputClass"
+        Identifier "Lima"
+        MatchDriver "<display DRM driver>"
+        Driver "modesetting"
+        Option "PrimaryGPU" "true"
+ EndSection
+```
+
+Você deve substituir ```"<display DRM driver>"``` com seu respectivo driver, a depender de seu SoC:
+
+* Allwinner: sun4i-drm
+* Amlogic: meson
+* Ericsson MCDE: mcde
+* Exynos: exynos
+* Rockchip: rockchip
+* Tinydrm: tinydrm
+
+Fonte: https://en.opensuse.org/ARM_Mali_GPU
