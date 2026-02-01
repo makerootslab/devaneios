@@ -28,7 +28,7 @@ Reinicie a máquina, faça o login e aguarde a interface gráfica do XFCE abrir.
 
 ## Drivers gráficos e acessórios
 
-`sudo apt install ffmpeg gstreamer1.0-fdkaac gstreamer1.0-libav gstreamer1.0-plugins-base-apps gstreamer1.0-vaapi gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly lame libavcodec-extra libavcodec-extra59 libavdevice59 libgstreamer1.0-0 sox twolame vorbis-tools mpv vlc`
+`sudo apt install ffmpeg gstreamer1.0-libav gstreamer1.0-plugins-base-apps gstreamer1.0-vaapi gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly lame libavcodec-extra libgstreamer1.0-0 sox twolame vorbis-tools mpv vlc`
 
 ## Arquivo xorg.conf
 
