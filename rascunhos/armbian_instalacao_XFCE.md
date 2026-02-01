@@ -18,6 +18,8 @@
 
 Reinicie a máquina, faça o login e aguarde a interface gráfica do XFCE abrir.
 
+## Funcionalidades do XFCE e Acessórios
+
 `sudo apt install gvfs polkitd pkexec polkit-kde-agent-1 network-manager-gnome thunar mousepad ristretto qpdfview xarchiver xfce4-screenshooter xfce4-taskmanager galculator xfce4-screensaver xfce4-pulseaudio-plugin dconf-editor drawing`
 
 ## Instalação do LibreOffice
