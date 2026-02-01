@@ -62,8 +62,17 @@ Fonte: https://en.opensuse.org/ARM_Mali_GPU
 sudo apt install xfce4-whiskermenu-plugin menulibre
 
 sudo localectl set-x11-keymap us pc105 intl
-
 sudo localectl set-x11-keymap br pc105 abnt2
 
 sudo apt remove menulibre 
 
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MakeRoots Lab Wiki
+Comment=Aceder à documentação do projeto
+Exec=chromium %u https://link-do-seu-dokuwiki.com
+Icon=system-help
+Terminal=false
+Categories=Education;Development;
+Keywords=roots;wiki;ajuda;
