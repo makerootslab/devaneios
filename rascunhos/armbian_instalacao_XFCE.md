@@ -59,5 +59,11 @@ Você deve substituir ```"<display DRM driver>"``` com seu respectivo driver, a 
 
 Fonte: https://en.opensuse.org/ARM_Mali_GPU
 
-sudo apt install xfce4-whiskermenu-plugin
+sudo apt install xfce4-whiskermenu-plugin menulibre
+
+sudo localectl set-x11-keymap us pc105 intl
+
+sudo localectl set-x11-keymap br pc105 abnt2
+
+sudo apt remove menulibre 
 
