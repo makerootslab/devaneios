@@ -76,3 +76,14 @@ Icon=system-help
 Terminal=false
 Categories=Education;Development;
 Keywords=roots;wiki;ajuda;
+
+# 1. Libera a personalização
+xfconf-query -c keyboard-layout -p /Default/XkbDisable -n -t bool -s false
+
+
+# 2. Define o layout como US e a variante como Internacional (Dead Keys)
+
+xfconf-query -c keyboard-layout -p /Default/XkbLayout -n -t string -s "us"
+
+xfconf-query -c keyboard-layout -p /Default/XkbVariant -n -t string -s "intl"
+
